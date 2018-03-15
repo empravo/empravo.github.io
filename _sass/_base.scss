@@ -155,7 +155,7 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+    background-image: url('../img/header.png');
     text-align: center;
     color: white;
     .header-content {
@@ -348,4 +348,19 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
+
+.comment {
+  height: auto;
+  display: inline-block;
+  margin-bottom: 30px;
+  padding: 10px 30px 10px 100px;
+  position: relative; }
+
+.comment-photo img {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 0;
+  margin-right: 20px;
+  border-radius: 50%; }
 
